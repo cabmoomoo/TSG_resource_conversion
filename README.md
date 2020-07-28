@@ -1,6 +1,6 @@
 # TSG_resource_conversion
  
-STEAM DESCRIPTION
+STEAM DESCRIPTION:
 
 Make use of new buildings to convert base resources into more advanced ones, some of which can't be harvested naturally!
 
