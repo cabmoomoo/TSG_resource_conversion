@@ -111,6 +111,24 @@
         .output {"Fertilizer" 1} --;; Value: 20
         .job_component chemistry_job_component})
 
+	--;; recipe_redo check
+	(if (and (not recipe_redo_installed) (not recipe_redo_checked))
+		(
+			(set recipe_redo_checked true)
+			(set core_tutorial_station_tutorial (tutorial_make_book (list
+				(tutorial_make_chapter "recipe_redo_check" (_L "recipe_redo_not_activated" "Recipe Redo is not Activated") (list
+					(tutorial_make_page {
+						.body (gui_v { .grow true }
+							(gui_label { .width tutorial_w .text (_L "recipe_redo_not_installed_1"
+								"The mod Recipe Redo is not activated.\nAt least one of your activated mods needs Recipe Redo in order to function properly.\nThat mod cares so much about it, it's gone and replaced the tutorial with this message, just to let you know./nIt is high recommended you start a new game with Recipe Redo activated."
+								) }))
+						.is_next false})
+				))
+			)))
+		)
+		(set recipe_redo_checked true)
+	)
+
 ))
 
 )
