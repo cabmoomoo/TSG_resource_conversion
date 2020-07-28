@@ -120,7 +120,7 @@
 					(tutorial_make_page {
 						.body (gui_v { .grow true }
 							(gui_label { .width tutorial_w .text (_L "recipe_redo_not_installed_1"
-								"The mod Recipe Redo is not activated.\nAt least one of your activated mods needs Recipe Redo in order to function properly.\nThat mod cares so much about it, it's gone and replaced the tutorial with this message, just to let you know./nIt is high recommended you start a new game with Recipe Redo activated."
+								"The mod Recipe Redo is not activated.\nAt least one of your activated mods needs Recipe Redo in order to function properly.\nThat mod cares so much about it, it's gone and replaced the tutorial with this message, just to let you know.\nIt is highly recommended you start a new game with Recipe Redo activated."
 								) }))
 						.is_next false})
 				))
