@@ -99,19 +99,19 @@
         .aesthetical -10
         .noise 10
         .name (_L "fruit_farm" "Fruit Farm")
-        .description (_L "fruit_farm_desc" "Sub-surface hydroponic farm containing various fruit-bearing flora.")
+        .description (_L "fruit_farm_desc" "Hydroponic farm containing various fruit-bearing flora.")
         .recipe_ids (list 
             "grow-fruits"
             )
         .floor 18
         .group "biology"
-        .flips 9
-        .sheet_plist_alias "station-v2.plist" .sheet_image_alias "station-v2.png"
+        .flips 0
+        .sheet_plist_alias "hyrdoponicsSprites.plist" .sheet_image_alias "hyrdoponicsSprites.png"
         .menu_order 4
         .is_decor false
         .ownable true
-        .idle (list "station-v2/holotraining_right_off.png" "station-v2/holotraining_right_off.png" "station-v2/holotraining_top_off.png" "station-v2/holotraining_top_off.png")
-        .action (list "station-v2/holotraining_right_on.png" "station-v2/holotraining_right_on.png" "station-v2/holotraining_top_on.png" "station-v2/holotraining_top_on.png")
+        .idle (list "hydroponics_left_off.png" "hydroponics_top_off.png" "hydroponics_right_off.png" "hydroponics_down_off.png")
+        .action (list "hydroponics_left_on.png" "hydroponics_top_on.png" "hydroponics_right_on.png" "hydroponics_down_on.png")
         .building_cost 450
      })
 

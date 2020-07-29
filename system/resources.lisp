@@ -7,6 +7,9 @@
 \	mod_add_sprite_frames_rel(mod, "images/electrolyzerSprites.plist", "images/electrolyzerSprites.png")
 \	mod_set_file_alias("electrolyzerSprites.plist", mod_rel_path(mod, "images/electrolyzerSprites.plist"))
 \	mod_set_file_alias("electrolyzerSprites.png", mod_rel_path(mod, "images/electrolyzerSprites.png"))
+\	mod_add_sprite_frames_rel(mod, "images/hyrdoponicsSprites.plist", "images/hyrdoponicsSprites.png")
+\	mod_set_file_alias("hyrdoponicsSprites.plist", mod_rel_path(mod, "images/hyrdoponicsSprites.plist"))
+\	mod_set_file_alias("hyrdoponicsSprites.png", mod_rel_path(mod, "images/hyrdoponicsSprites.png"))
 ))
 
 (set mod.resource_conversion_resources_setup (fn (rules)
