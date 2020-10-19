@@ -10,6 +10,8 @@ This mod requires Recipe Redo! Many of the recipes in this mod require the chang
 
 This mod, content wise, is in a functional form, achieving all the goals I originally set out to. There's most likely room to expand, especially with the farming concept, but as is, this is a mod that adds enough to the game I'm comfortable with releasing it now. The biggest issue is the graphics, or lack thereof. All of the resources have new, custom made sprites, but the buildings are still a work in progress. I hope to complete their design myself over time, but I'm no artist, so that could take quite some time. If there are any artistic volunteers, let me know; I'd be more than happy to handle the code part of the mod, and let someone more competent handle the making it look good part. In the meantime, feel free to also comment on the balance and functionality of the mod - any feedback is welcome!
 
+Update 10/18/2020: Addition of the Utilitarian Simplicity room. Nothing major about this room, just felt this mod would be a better representation of all I've achieved in modding if I included a new room. Feedback welcome!
+
 For the modders out there, feel free to take a gander at the code of this mod as always. Seeing as this is an actual content mod, I went through the trouble of making entirely new research and building categories, so mod compatibility is actually quite high, given that no one makes use of the sane ID's as me.
 
 This mod is now available on [url=https://github.com/cabmoomoo/TSG_resource_conversion]GitHub[/url]. Feel free to use and/or contribute to the code as you see fit.
