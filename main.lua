@@ -3,6 +3,7 @@ return function (mod)
 	--;; Organized in this folder structure to make for easier comparison to Core files
 	include_lisp(mod, "station/recipes.lisp")
 	include_lisp(mod, "station/objects.lisp")
+	include_lisp(mod, "station/rooms.lisp")
 	include_lisp(mod, "system/research.lisp")
 	include_lisp(mod, "system/resources.lisp")
 
@@ -11,6 +12,7 @@ return function (mod)
 		mod.resource_conversion_resources_setup(rules)
 		mod.resource_conversion_recipes_setup(rules)
 		mod.resource_conversion_objects_setup(rules)
+		mod.resource_conversion_rooms_setup(rules)
 		mod.resource_conversion_research_setup(rules)
     end
 

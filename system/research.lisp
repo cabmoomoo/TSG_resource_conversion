@@ -11,7 +11,7 @@
 	(set rules.research_tech_groups.biology {
 		.group "biology"
 		.name (_L "group_biology" "Biology")
-		.icon "ui_icon_40px_biology.png" --;; Image released under public domain. Credit to Karen Arnold. (https://www.publicdomainpictures.net/en/view-image.php?image=75290&picture=microscope-silhouette-clipart)
+		.icon "ui_icon_40px_biology.png" --;; Image released under public domain. Credit to Karen Arnold. (https://www.publicdomainpictures.net/en/view-image.php?image=75290&picture=microscope-silhouette-clipart )
 	})
 	
 	(set rules.research_tech.biology (list
@@ -27,7 +27,7 @@
 				"make-conversion-oils"
 				"make-conversion-microbiota"
 				)
-			.rooms (list)
+			.rooms (list 49)
 			.ships (list)
 		 }
 

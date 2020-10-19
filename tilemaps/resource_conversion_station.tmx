@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="100" height="100" tilewidth="128" tileheight="64" backgroundcolor="#070c1d" nextobjectid="1">
+ <tileset firstgid="1" name="grid130_STATION_001" tilewidth="128" tileheight="128" spacing="2" tilecount="225" columns="15">
+  <image source="resource_conversion_station.png" width="1950" height="2080"/>
+ </tileset>
+ <tileset firstgid="226" name="tilemap_color" tilewidth="128" tileheight="128" spacing="2" tilecount="225" columns="15">
+  <image source="resource_conversion_station-color.png" width="1950" height="2080"/>
+ </tileset>
+ <layer name="bases" width="100" height="100">
+  <properties>
+   <property name="cc_vertexz" value="-211"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt100Kg0AMBlBv0W2s9ef+J6zCVEapuNK08B6ERMniAxFmmgYAAAC+a0uPzBCQaCp9nGsoc1/6s/RurtedoQD4a101R1YIVkM1R1YIVsv3iIPifkf/RzRcZSy13DWWe8ejzMu7ttqL3Vw/c53IDsBGZAdgI7IDsBHZATjUna9wo+l8hQt8zrd9VfvzLgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8kjdeSQZb
+  </data>
+ </layer>
+ <layer name="bases_color" width="100" height="100">
+  <properties>
+   <property name="cc_vertexz" value="-211"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzkENAAAIBKCziP1j2sG5+YEEJAAAALDX9T0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALg1zFYAIA==
+  </data>
+ </layer>
+ <layer name="suelos" width="100" height="100">
+  <properties>
+   <property name="cc_vertexz" value="-210"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKgCAQBVAX5n2kRfe/WS5q06KgMCd6Dz66HPgOmBIAAPxH2c7aMo8chLS05JZp9CAAAB+3XGTn3/UOfcRy1UfZkg93+rizH3alnzt97LtCf95+LPqIRR+x6GO8ehLep49Y9AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPLUCPYcNnw==
+  </data>
+ </layer>
+ <layer name="suelos_color" width="100" height="100">
+  <properties>
+   <property name="cc_vertexz" value="-210"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6BbxP4xjeGckIAEAAAAAH7o2h4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFww6igAg
+  </data>
+ </layer>
+ <layer name="paredes" width="100" height="100">
+  <properties>
+   <property name="cc_alpha_func" value="0.5"/>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt2sEKgkAUBdDZVa7SDykX6f9/WgpGJmFh5lM8Bx7OgIsL19kMpsRWVM3cevsyKgipHuwvISkYkzVzig6xU0X3zJs5d+tDUBbeO0YHAAAAYFbtnWE9Mg/58tF2qfryPX0s41MfRXreZxWDPfObcj6clf+Z2oczsgzf/rroY130sS76iNf+r1B2k/XW/imJcY0OwAt9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC/ugOrZgZx
+  </data>
+ </layer>
+ <layer name="paredes_color" width="100" height="100">
+  <properties>
+   <property name="cc_alpha_func" value="0.5"/>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6BZxP4xPY2wBxKQAAAAAADA22kPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAug7YJwAg
+  </data>
+ </layer>
+ <layer name="paredesfrontal" width="100" height="100">
+  <properties>
+   <property name="cc_alpha_func" value="0.5"/>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt2LEKwyAUBVDH7k1as/n/X1mziLYZMpQ8ac+BC+J0QRQ1JQDg16w1S809usgfe9Y8okvQ5JotugQA8FUlugCDEl2AD6UbL1ElaEo3XqNKcOgWXYDBfl7l6BI0/havtf8n5jTugaM54tgTc7EecI734FycXXOxHtfr77fvAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBZvQC03AMg
+  </data>
+ </layer>
+ <layer name="paredesextra" width="100" height="100">
+  <properties>
+   <property name="cc_alpha_func" value="0.5"/>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt2LEKwyAUBVDH7k1as/n/X1mziLYZMpQ8ac+BC+J0QRQ1JQDg16w1S809usgfe9Y8okvQ5JotugQA8FUlugCDEl2AD6UbL1ElaEo3XqNKcOgWXYDBfl7l6BI0/havtf8n5jTugaM54tgTc7EecI734FycXXOxHtfr77fvAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBZvQC03AMg
+  </data>
+ </layer>
+ <layer name="cosas" width="100" height="100" opacity="0.5">
+  <properties>
+   <property name="cc_vertexz" value="-204"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiAzrX+43SbwgQQkAAAA0G4dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYel3MADM=
+  </data>
+ </layer>
+ <layer name="cursor" width="100" height="100" opacity="0.5">
+  <properties>
+   <property name="cc_vertexz" value="-203"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6BbxP4xjeGckIAEAAAAAH7o2h4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFww6igAg
+  </data>
+ </layer>
+</map>
